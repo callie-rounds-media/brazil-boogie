@@ -1,0 +1,295 @@
+[
+ {
+  "title": "Living room",
+  "slug": "living-room",
+  "highlights": [
+   "3 couches",
+   "TV"
+  ],
+  "photos": [
+   "living-room-01.jpg",
+   "living-room-02.jpg",
+   "living-room-03.jpg",
+   "living-room-04.jpg",
+   "living-room-05.jpg",
+   "living-room-06.jpg",
+   "living-room-07.jpg",
+   "living-room-08.jpg",
+   "living-room-09.jpg",
+   "living-room-10.jpg"
+  ]
+ },
+ {
+  "title": "Full kitchen",
+  "slug": "full-kitchen",
+  "highlights": [
+   "Baking sheet",
+   "Coffee maker",
+   "Stove",
+   "Oven",
+   "Freezer",
+   "Cooking basics",
+   "Blender",
+   "Dishes and silverware",
+   "Microwave",
+   "Refrigerator",
+   "Toaster",
+   "Barbecue utensils"
+  ],
+  "photos": [
+   "full-kitchen-01.jpg",
+   "full-kitchen-02.jpg",
+   "full-kitchen-03.jpg",
+   "full-kitchen-04.jpg",
+   "full-kitchen-05.jpg",
+   "full-kitchen-06.jpg"
+  ]
+ },
+ {
+  "title": "Dining area",
+  "slug": "dining-area",
+  "highlights": [
+   "Dining table"
+  ],
+  "photos": [
+   "dining-area-01.jpg",
+   "dining-area-02.jpg",
+   "dining-area-03.jpg",
+   "dining-area-04.jpg",
+   "dining-area-05.jpg"
+  ]
+ },
+ {
+  "title": "Bedroom 1",
+  "slug": "bedroom-1",
+  "highlights": [
+   "King bed",
+   "Air conditioning",
+   "Room-darkening shades",
+   "Clothing storage"
+  ],
+  "photos": [
+   "bedroom-1-01.jpg",
+   "bedroom-1-02.jpg",
+   "bedroom-1-03.jpg",
+   "bedroom-1-04.jpg",
+   "bedroom-1-05.jpg",
+   "bedroom-1-06.jpg",
+   "bedroom-1-07.jpg",
+   "bedroom-1-08.jpg"
+  ]
+ },
+ {
+  "title": "Bedroom 2",
+  "slug": "bedroom-2",
+  "highlights": [
+   "Queen bed",
+   "Air conditioning",
+   "Clothing storage"
+  ],
+  "photos": [
+   "bedroom-2-01.jpg",
+   "bedroom-2-02.jpg",
+   "bedroom-2-03.jpg",
+   "bedroom-2-04.jpg",
+   "bedroom-2-05.jpg",
+   "bedroom-2-06.jpg",
+   "bedroom-2-07.jpg",
+   "bedroom-2-08.jpg"
+  ]
+ },
+ {
+  "title": "Bedroom 3",
+  "slug": "bedroom-3",
+  "highlights": [
+   "Double bed",
+   "Single bed",
+   "Air conditioning",
+   "Clothing storage"
+  ],
+  "photos": [
+   "bedroom-3-01.jpg",
+   "bedroom-3-02.jpg",
+   "bedroom-3-03.jpg",
+   "bedroom-3-04.jpg",
+   "bedroom-3-05.jpg",
+   "bedroom-3-06.jpg"
+  ]
+ },
+ {
+  "title": "Bedroom 4",
+  "slug": "bedroom-4",
+  "highlights": [
+   "3 single beds",
+   "Air conditioning",
+   "TV"
+  ],
+  "photos": [
+   "bedroom-4-01.jpg",
+   "bedroom-4-02.jpg",
+   "bedroom-4-03.jpg",
+   "bedroom-4-04.jpg",
+   "bedroom-4-05.jpg",
+   "bedroom-4-06.jpg"
+  ]
+ },
+ {
+  "title": "Bedroom 5",
+  "slug": "bedroom-5",
+  "highlights": [
+   "2 double beds",
+   "Air conditioning",
+   "Clothing storage"
+  ],
+  "photos": [
+   "bedroom-5-01.jpg",
+   "bedroom-5-02.jpg",
+   "bedroom-5-03.jpg",
+   "bedroom-5-04.jpg",
+   "bedroom-5-05.jpg",
+   "bedroom-5-06.jpg",
+   "bedroom-5-07.jpg",
+   "bedroom-5-08.jpg"
+  ]
+ },
+ {
+  "title": "Workspace",
+  "slug": "workspace",
+  "highlights": [],
+  "photos": [
+   "workspace-01.jpg"
+  ]
+ },
+ {
+  "title": "Backyard",
+  "slug": "backyard",
+  "highlights": [],
+  "photos": [
+   "backyard-01.jpg",
+   "backyard-02.jpg",
+   "backyard-03.jpg",
+   "backyard-04.jpg",
+   "backyard-05.jpg",
+   "backyard-06.jpg",
+   "backyard-07.jpg",
+   "backyard-08.jpg",
+   "backyard-09.jpg",
+   "backyard-10.jpg",
+   "backyard-11.jpg",
+   "backyard-12.jpg",
+   "backyard-13.jpg",
+   "backyard-14.jpg",
+   "backyard-15.jpg",
+   "backyard-16.jpg",
+   "backyard-17.jpg",
+   "backyard-18.jpg",
+   "backyard-19.jpg",
+   "backyard-20.jpg",
+   "backyard-21.jpg",
+   "backyard-22.jpg",
+   "backyard-23.jpg",
+   "backyard-24.jpg",
+   "backyard-25.jpg",
+   "backyard-26.jpg",
+   "backyard-27.jpg",
+   "backyard-28.jpg",
+   "backyard-29.jpg",
+   "backyard-30.jpg",
+   "backyard-31.jpg",
+   "backyard-32.jpg",
+   "backyard-33.jpg",
+   "backyard-34.jpg",
+   "backyard-35.jpg",
+   "backyard-36.jpg",
+   "backyard-37.jpg",
+   "backyard-38.jpg",
+   "backyard-39.jpg",
+   "backyard-40.jpg",
+   "backyard-41.jpg",
+   "backyard-42.jpg",
+   "backyard-43.jpg",
+   "backyard-44.jpg",
+   "backyard-45.jpg",
+   "backyard-46.jpg"
+  ]
+ },
+ {
+  "title": "Patio",
+  "slug": "patio",
+  "highlights": [],
+  "photos": [
+   "patio-01.jpg",
+   "patio-02.jpg",
+   "patio-03.jpg",
+   "patio-04.jpg",
+   "patio-05.jpg",
+   "patio-06.jpg",
+   "patio-07.jpg",
+   "patio-08.jpg",
+   "patio-09.jpg",
+   "patio-10.jpg",
+   "patio-11.jpg",
+   "patio-12.jpg",
+   "patio-13.jpg",
+   "patio-14.jpg",
+   "patio-15.jpg",
+   "patio-16.jpg",
+   "patio-17.jpg",
+   "patio-18.jpg",
+   "patio-19.jpg",
+   "patio-20.jpg",
+   "patio-21.jpg",
+   "patio-22.jpg",
+   "patio-23.jpg",
+   "patio-24.jpg"
+  ]
+ },
+ {
+  "title": "Balcony",
+  "slug": "balcony",
+  "highlights": [],
+  "photos": [
+   "balcony-01.jpg"
+  ]
+ },
+ {
+  "title": "Garage",
+  "slug": "garage",
+  "highlights": [],
+  "photos": [
+   "garage-01.jpg",
+   "garage-02.jpg"
+  ]
+ },
+ {
+  "title": "Pool",
+  "slug": "pool",
+  "highlights": [],
+  "photos": [
+   "pool-01.jpg",
+   "pool-02.jpg",
+   "pool-03.jpg",
+   "pool-04.jpg",
+   "pool-05.jpg",
+   "pool-06.jpg",
+   "pool-07.jpg",
+   "pool-08.jpg",
+   "pool-09.jpg",
+   "pool-10.jpg",
+   "pool-11.jpg",
+   "pool-12.jpg",
+   "pool-13.jpg",
+   "pool-14.jpg",
+   "pool-15.jpg"
+  ]
+ },
+ {
+  "title": "Additional photos",
+  "slug": "additional-photos",
+  "highlights": [],
+  "photos": [
+   "additional-photos-01.jpg",
+   "additional-photos-02.jpg"
+  ]
+ }
+]
