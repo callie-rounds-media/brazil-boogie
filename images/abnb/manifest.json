@@ -1,0 +1,397 @@
+[
+ {
+  "file": "abnb/living-room-01.jpg",
+  "room": "Living room",
+  "n": 1
+ },
+ {
+  "file": "abnb/living-room-02.jpg",
+  "room": "Living room",
+  "n": 2
+ },
+ {
+  "file": "abnb/living-room-03.jpg",
+  "room": "Living room",
+  "n": 3
+ },
+ {
+  "file": "abnb/living-room-04.jpg",
+  "room": "Living room",
+  "n": 4
+ },
+ {
+  "file": "abnb/living-room-05.jpg",
+  "room": "Living room",
+  "n": 5
+ },
+ {
+  "file": "abnb/living-room-06.jpg",
+  "room": "Living room",
+  "n": 6
+ },
+ {
+  "file": "abnb/living-room-07.jpg",
+  "room": "Living room",
+  "n": 7
+ },
+ {
+  "file": "abnb/living-room-08.jpg",
+  "room": "Living room",
+  "n": 8
+ },
+ {
+  "file": "abnb/full-kitchen-01.jpg",
+  "room": "Full kitchen",
+  "n": 1
+ },
+ {
+  "file": "abnb/full-kitchen-02.jpg",
+  "room": "Full kitchen",
+  "n": 2
+ },
+ {
+  "file": "abnb/full-kitchen-03.jpg",
+  "room": "Full kitchen",
+  "n": 3
+ },
+ {
+  "file": "abnb/dining-area-01.jpg",
+  "room": "Dining area",
+  "n": 1
+ },
+ {
+  "file": "abnb/dining-area-02.jpg",
+  "room": "Dining area",
+  "n": 2
+ },
+ {
+  "file": "abnb/dining-area-03.jpg",
+  "room": "Dining area",
+  "n": 3
+ },
+ {
+  "file": "abnb/bedroom-1-01.jpg",
+  "room": "Bedroom 1",
+  "n": 1
+ },
+ {
+  "file": "abnb/bedroom-1-02.jpg",
+  "room": "Bedroom 1",
+  "n": 2
+ },
+ {
+  "file": "abnb/bedroom-1-03.jpg",
+  "room": "Bedroom 1",
+  "n": 3
+ },
+ {
+  "file": "abnb/bedroom-1-04.jpg",
+  "room": "Bedroom 1",
+  "n": 4
+ },
+ {
+  "file": "abnb/bedroom-1-05.jpg",
+  "room": "Bedroom 1",
+  "n": 5
+ },
+ {
+  "file": "abnb/bedroom-1-06.jpg",
+  "room": "Bedroom 1",
+  "n": 6
+ },
+ {
+  "file": "abnb/bedroom-1-07.jpg",
+  "room": "Bedroom 1",
+  "n": 7
+ },
+ {
+  "file": "abnb/bedroom-1-08.jpg",
+  "room": "Bedroom 1",
+  "n": 8
+ },
+ {
+  "file": "abnb/bedroom-2-01.jpg",
+  "room": "Bedroom 2",
+  "n": 1
+ },
+ {
+  "file": "abnb/bedroom-2-02.jpg",
+  "room": "Bedroom 2",
+  "n": 2
+ },
+ {
+  "file": "abnb/bedroom-2-03.jpg",
+  "room": "Bedroom 2",
+  "n": 3
+ },
+ {
+  "file": "abnb/bedroom-2-04.jpg",
+  "room": "Bedroom 2",
+  "n": 4
+ },
+ {
+  "file": "abnb/bedroom-2-05.jpg",
+  "room": "Bedroom 2",
+  "n": 5
+ },
+ {
+  "file": "abnb/bedroom-2-06.jpg",
+  "room": "Bedroom 2",
+  "n": 6
+ },
+ {
+  "file": "abnb/bedroom-2-07.jpg",
+  "room": "Bedroom 2",
+  "n": 7
+ },
+ {
+  "file": "abnb/bedroom-2-08.jpg",
+  "room": "Bedroom 2",
+  "n": 8
+ },
+ {
+  "file": "abnb/bedroom-3-01.jpg",
+  "room": "Bedroom 3",
+  "n": 1
+ },
+ {
+  "file": "abnb/bedroom-3-02.jpg",
+  "room": "Bedroom 3",
+  "n": 2
+ },
+ {
+  "file": "abnb/bedroom-3-03.jpg",
+  "room": "Bedroom 3",
+  "n": 3
+ },
+ {
+  "file": "abnb/bedroom-3-04.jpg",
+  "room": "Bedroom 3",
+  "n": 4
+ },
+ {
+  "file": "abnb/bedroom-3-05.jpg",
+  "room": "Bedroom 3",
+  "n": 5
+ },
+ {
+  "file": "abnb/bedroom-3-06.jpg",
+  "room": "Bedroom 3",
+  "n": 6
+ },
+ {
+  "file": "abnb/bedroom-4-01.jpg",
+  "room": "Bedroom 4",
+  "n": 1
+ },
+ {
+  "file": "abnb/bedroom-4-02.jpg",
+  "room": "Bedroom 4",
+  "n": 2
+ },
+ {
+  "file": "abnb/bedroom-4-03.jpg",
+  "room": "Bedroom 4",
+  "n": 3
+ },
+ {
+  "file": "abnb/bedroom-4-04.jpg",
+  "room": "Bedroom 4",
+  "n": 4
+ },
+ {
+  "file": "abnb/bedroom-4-05.jpg",
+  "room": "Bedroom 4",
+  "n": 5
+ },
+ {
+  "file": "abnb/bedroom-4-06.jpg",
+  "room": "Bedroom 4",
+  "n": 6
+ },
+ {
+  "file": "abnb/bedroom-5-01.jpg",
+  "room": "Bedroom 5",
+  "n": 1
+ },
+ {
+  "file": "abnb/bedroom-5-02.jpg",
+  "room": "Bedroom 5",
+  "n": 2
+ },
+ {
+  "file": "abnb/bedroom-5-03.jpg",
+  "room": "Bedroom 5",
+  "n": 3
+ },
+ {
+  "file": "abnb/bedroom-5-04.jpg",
+  "room": "Bedroom 5",
+  "n": 4
+ },
+ {
+  "file": "abnb/bedroom-5-05.jpg",
+  "room": "Bedroom 5",
+  "n": 5
+ },
+ {
+  "file": "abnb/bedroom-5-06.jpg",
+  "room": "Bedroom 5",
+  "n": 6
+ },
+ {
+  "file": "abnb/bedroom-5-07.jpg",
+  "room": "Bedroom 5",
+  "n": 7
+ },
+ {
+  "file": "abnb/bedroom-5-08.jpg",
+  "room": "Bedroom 5",
+  "n": 8
+ },
+ {
+  "file": "abnb/backyard-01.jpg",
+  "room": "Backyard",
+  "n": 1
+ },
+ {
+  "file": "abnb/backyard-02.jpg",
+  "room": "Backyard",
+  "n": 2
+ },
+ {
+  "file": "abnb/backyard-03.jpg",
+  "room": "Backyard",
+  "n": 3
+ },
+ {
+  "file": "abnb/backyard-04.jpg",
+  "room": "Backyard",
+  "n": 4
+ },
+ {
+  "file": "abnb/backyard-05.jpg",
+  "room": "Backyard",
+  "n": 5
+ },
+ {
+  "file": "abnb/backyard-06.jpg",
+  "room": "Backyard",
+  "n": 6
+ },
+ {
+  "file": "abnb/backyard-07.jpg",
+  "room": "Backyard",
+  "n": 7
+ },
+ {
+  "file": "abnb/backyard-08.jpg",
+  "room": "Backyard",
+  "n": 8
+ },
+ {
+  "file": "abnb/backyard-09.jpg",
+  "room": "Backyard",
+  "n": 9
+ },
+ {
+  "file": "abnb/backyard-10.jpg",
+  "room": "Backyard",
+  "n": 10
+ },
+ {
+  "file": "abnb/patio-01.jpg",
+  "room": "Patio",
+  "n": 1
+ },
+ {
+  "file": "abnb/patio-02.jpg",
+  "room": "Patio",
+  "n": 2
+ },
+ {
+  "file": "abnb/patio-03.jpg",
+  "room": "Patio",
+  "n": 3
+ },
+ {
+  "file": "abnb/patio-04.jpg",
+  "room": "Patio",
+  "n": 4
+ },
+ {
+  "file": "abnb/patio-05.jpg",
+  "room": "Patio",
+  "n": 5
+ },
+ {
+  "file": "abnb/patio-06.jpg",
+  "room": "Patio",
+  "n": 6
+ },
+ {
+  "file": "abnb/patio-07.jpg",
+  "room": "Patio",
+  "n": 7
+ },
+ {
+  "file": "abnb/patio-08.jpg",
+  "room": "Patio",
+  "n": 8
+ },
+ {
+  "file": "abnb/balcony-01.jpg",
+  "room": "Balcony",
+  "n": 1
+ },
+ {
+  "file": "abnb/pool-01.jpg",
+  "room": "Pool",
+  "n": 1
+ },
+ {
+  "file": "abnb/pool-02.jpg",
+  "room": "Pool",
+  "n": 2
+ },
+ {
+  "file": "abnb/pool-03.jpg",
+  "room": "Pool",
+  "n": 3
+ },
+ {
+  "file": "abnb/pool-04.jpg",
+  "room": "Pool",
+  "n": 4
+ },
+ {
+  "file": "abnb/pool-05.jpg",
+  "room": "Pool",
+  "n": 5
+ },
+ {
+  "file": "abnb/pool-06.jpg",
+  "room": "Pool",
+  "n": 6
+ },
+ {
+  "file": "abnb/pool-07.jpg",
+  "room": "Pool",
+  "n": 7
+ },
+ {
+  "file": "abnb/pool-08.jpg",
+  "room": "Pool",
+  "n": 8
+ },
+ {
+  "file": "abnb/pool-09.jpg",
+  "room": "Pool",
+  "n": 9
+ },
+ {
+  "file": "abnb/pool-10.jpg",
+  "room": "Pool",
+  "n": 10
+ }
+]
