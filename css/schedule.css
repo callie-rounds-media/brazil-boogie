@@ -1,0 +1,122 @@
+/* Guest schedule page (schedule.html). Kyle's section styles, scoped under
+   .sched so they do not leak into site.css or pick up its same-named rules
+   (.hero, .eyebrow, .contact, .hosts). The page uses site.css for the header,
+   slide-in nav and footer. */
+.sched{
+  --taupe:#796c5c; --taupe-soft:#9a918a; --body:#514a41; --near-black:#161616;
+  --cream:#fff8ee; --offwhite:#f9f8f7; --white:#fff; --line:#ece7e0; --line-2:#e2d9cb;
+  font-family:'Jost',sans-serif;color:var(--body);line-height:1.55;font-size:17px;
+}
+.sched *{box-sizing:border-box;}
+.sched p,.sched ul,.sched table{margin:0;padding:0;}
+.sched img{display:block;max-width:100%;}
+.sched a{color:var(--taupe);text-decoration:underline;}
+
+/* the site header sits over a photo on every other page; here the page opens
+   on white, so keep it in its solid state from the top */
+.page-header--solid{background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.06)}
+.page-header--solid:before{opacity:0}
+.page-header--solid .hamburger,
+.page-header--solid .header-home-logo{color:var(--taupe)}
+.page-header--solid .btn-secondary{background:var(--taupe);border-color:var(--taupe);color:#fff}
+.sched{padding-top:var(--sched-top,94px);}
+.sched section{scroll-margin-top:var(--sched-top,94px);}
+
+.sched .eyebrow{font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.38em;text-transform:uppercase;color:var(--taupe);font-weight:500;}
+.sched h1,.sched h2,.sched h3{font-family:'Playfair Display',serif;font-weight:400;color:var(--near-black);line-height:1.1;}
+.sched h2{font-size:clamp(34px,5.5vw,56px);margin:14px 0 0;}
+.sched h3{font-size:26px;}
+.sched .rule{width:56px;height:2px;background:var(--taupe);border:0;margin:28px 0;}
+
+/* Sections */
+.sched .wrap{max-width:1180px;margin:0 auto;padding:0 24px;}
+.sched section{padding:96px 0;}
+.sched .alt{background:var(--offwhite);}
+.sched .head{margin-bottom:48px;}
+
+/* Hero */
+.sched .s-hero{display:grid;grid-template-columns:1fr 1fr;min-height:min(calc(100vh - 94px),780px);padding:0;}
+.sched .s-hero-text{display:flex;flex-direction:column;justify-content:center;padding:72px 56px 72px max(24px,calc((100vw - 1180px)/2 + 24px));}
+.sched .s-hero h1{font-size:clamp(52px,8vw,104px);line-height:1.02;margin-top:22px;}
+.sched .hero-img{background:url(../images/schedule/hero.jpg) center/cover no-repeat;min-height:420px;}
+
+/* Week grid */
+.sched .week{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.sched .day{background:var(--offwhite);border-radius:6px;padding:26px 24px;}
+.sched .day.jump{background:var(--cream);}
+.sched .day .eyebrow{letter-spacing:.28em;}
+.sched .day h3{margin:10px 0 8px;}
+.sched .day p{font-size:16px;}
+.sched .weather{margin-top:14px;font-size:16px;color:var(--taupe);font-style:italic;}
+
+/* Split rows */
+.sched .split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+.sched .photo{border-radius:6px;overflow:hidden;aspect-ratio:4/5;}
+.sched .photo img{width:100%;height:100%;object-fit:cover;}
+.sched .photo.wide{aspect-ratio:3/2;}
+.sched .timeline{display:flex;flex-direction:column;gap:26px;margin-top:40px;}
+.sched .timeline div{border-left:2px solid var(--taupe);padding-left:22px;}
+.sched .timeline .eyebrow{letter-spacing:.26em;margin-bottom:4px;}
+.sched .timeline p{font-size:18px;}
+
+/* Cards */
+.sched .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.sched .cards.three{grid-template-columns:repeat(3,1fr);}
+.sched .cards.two{grid-template-columns:repeat(2,1fr);}
+.sched .card{background:var(--white);border:1px solid var(--line);border-radius:6px;padding:30px 26px;}
+.sched section:not(.alt) .card{background:var(--offwhite);border-color:transparent;}
+.sched .card h3{margin:10px 0 10px;}
+.sched .card p{font-size:16px;}
+
+/* Divider */
+.sched .divider{background:var(--taupe);color:var(--cream);padding:120px 0;}
+.sched .divider h2{color:var(--cream);font-size:clamp(44px,8vw,96px);}
+.sched .divider .rule{background:var(--cream);}
+.sched .divider p{font-size:20px;font-weight:300;}
+
+/* Steps */
+.sched .steps{display:flex;flex-direction:column;gap:26px;margin-top:40px;}
+.sched .step{display:grid;grid-template-columns:44px 1fr;gap:16px;}
+.sched .step .num{font-family:'Playfair Display',serif;font-size:34px;color:var(--taupe);line-height:1;}
+.sched .step b{display:block;color:var(--near-black);font-weight:500;font-size:19px;margin-bottom:2px;}
+
+/* Van table */
+.sched .vans{display:grid;grid-template-columns:1.4fr 1fr;gap:56px;align-items:start;}
+.sched table{width:100%;border-collapse:collapse;font-size:18px;}
+.sched th{text-align:left;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:var(--taupe);font-weight:500;background:var(--cream);padding:16px 18px;}
+.sched td{padding:16px 18px;border-bottom:1px solid var(--line);}
+.sched tr:nth-child(odd) td{background:var(--offwhite);}
+.sched td:last-child{color:var(--near-black);font-weight:500;}
+.sched .aside{border-left:2px solid var(--taupe);padding-left:26px;}
+.sched .aside .big{font-family:'Playfair Display',serif;font-size:30px;color:var(--near-black);line-height:1.25;margin-bottom:14px;}
+
+/* Closing */
+.sched .closing{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center;}
+.sched .closing h2{font-size:clamp(44px,7vw,84px);}
+.sched .contact{font-size:18px;line-height:1.9;max-width:none;margin:0;border:0;padding:0;}
+.sched .contact a{text-decoration:none;display:inline-block;min-height:44px;line-height:44px;}
+.sched .hosts{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:0;}
+.sched .host{text-align:center;}
+.sched .host img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%;margin-bottom:16px;}
+.sched .host h3{font-size:24px;}
+.sched .host a{font-size:15px;text-decoration:none;display:inline-block;min-height:44px;line-height:44px;}
+
+/* Mobile */
+@media (max-width:900px){
+  .sched{--sched-top:74px;}
+  .sched section{padding:72px 0;}
+  .sched .s-hero{grid-template-columns:1fr;min-height:0;}
+  .sched .hero-img{order:-1;min-height:0;aspect-ratio:4/3;}
+  .sched .s-hero-text{padding:48px 24px 56px;}
+  .sched .week{grid-template-columns:1fr 1fr;}
+  .sched .split,.sched .vans,.sched .closing{grid-template-columns:1fr;gap:40px;}
+  .sched .split .photo{order:-1;aspect-ratio:3/2;}
+  .sched .cards,.sched .cards.three{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:560px){
+  .sched{font-size:16px;}
+  .sched .week,.sched .cards,.sched .cards.three,.sched .cards.two{grid-template-columns:1fr;}
+  .sched table{font-size:16px;}
+  .sched th,.sched td{padding:14px 12px;}
+  .sched .hosts{gap:18px;}
+}
