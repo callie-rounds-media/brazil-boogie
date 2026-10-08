@@ -38,7 +38,7 @@
 .sched .s-hero{display:grid;grid-template-columns:1fr 1fr;min-height:min(calc(100vh - 94px),780px);padding:0;}
 .sched .s-hero-text{display:flex;flex-direction:column;justify-content:center;padding:72px 56px 72px max(24px,calc((100vw - 1180px)/2 + 24px));}
 .sched .s-hero h1{font-size:clamp(52px,8vw,104px);line-height:1.02;margin-top:22px;}
-.sched .hero-img{background:url(../images/schedule/hero.jpg) center/cover no-repeat;min-height:420px;}
+.sched .hero-img{background:url(../images/sky/freefall-buzios-coast.jpg) center/cover no-repeat;min-height:420px;}
 
 /* Week grid */
 .sched .week{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
