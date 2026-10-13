@@ -1,0 +1,91 @@
+{
+  "updated": "2026-10-12T22:16:01-03:00",
+  "date": "2026-10-13",
+  "status": "on",
+  "headline": "On schedule",
+  "note": "Times are approximate and weather dependent. Meet at the beach 45 minutes before your load. If you are late you may have to forfeit your slot.",
+  "meet_point": "https://maps.app.goo.gl/ALFWZE8mUu2aUgLJ6",
+  "items": [
+    {
+      "type": "load",
+      "n": 1,
+      "time": "07:30",
+      "meet": "06:45",
+      "people": [
+        "Sarah",
+        "Phil",
+        "Isaac"
+      ]
+    },
+    {
+      "type": "load",
+      "n": 2,
+      "time": "08:00",
+      "meet": "07:15",
+      "people": [
+        "James",
+        "Rob",
+        "Patty"
+      ]
+    },
+    {
+      "type": "fuel",
+      "from": "08:30",
+      "to": "08:50"
+    },
+    {
+      "type": "load",
+      "n": 3,
+      "time": "08:50",
+      "meet": "08:05",
+      "people": [
+        "Kyree",
+        "Wahab",
+        "Shiv"
+      ]
+    },
+    {
+      "type": "load",
+      "n": 4,
+      "time": "09:20",
+      "meet": "08:35",
+      "people": [
+        "Zack",
+        "Yusef",
+        "Joey"
+      ]
+    },
+    {
+      "type": "fuel",
+      "from": "09:50",
+      "to": "10:10"
+    },
+    {
+      "type": "load",
+      "n": 5,
+      "time": "10:10",
+      "meet": "09:25",
+      "people": [
+        "Cora",
+        "Natalia",
+        "Rob"
+      ]
+    },
+    {
+      "type": "load",
+      "n": 6,
+      "time": "10:40",
+      "meet": "09:55",
+      "people": [
+        "Wahab",
+        "Shelby",
+        "Keoni"
+      ]
+    },
+    {
+      "type": "fuel",
+      "from": "11:10",
+      "to": "11:30"
+    }
+  ]
+}
