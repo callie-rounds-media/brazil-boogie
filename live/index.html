@@ -44,6 +44,7 @@ h2{font-weight:600;font-size:22px;letter-spacing:-.01em;margin:30px 0 4px}
 .ld{padding:14px 0;border-top:1px solid rgba(255,255,255,.14)}
 .ld .r{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .ld .meet{font-weight:700;font-size:21px;line-height:1.2;letter-spacing:-.01em}
+.ld .lno{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#fff;opacity:.85;margin-bottom:2px}
 .ld .meet .mt{font-weight:500;font-size:16px;color:var(--soft)}
 .ld .tk{color:var(--faint);font-size:14px;margin-top:2px}
 .ld .p{height:28px;font-size:12px;padding:0 11px;flex:none}
@@ -157,7 +158,7 @@ function render(v){
     if (it.type === 'fuel') { rows += `<div class="fuel">⛽ Fuel stop ${fmt(it.from)} to ${fmt(it.to)}</div>`; continue; }
     const cls = it.s === 'meet' ? 'white meetnow' : it.s === 'air' ? 'frost air' : 'frost';
     rows += `<div class="ld ${it.s==='done'?'done':''}">
-      <div class="r"><div><div class="meet">${fmt(it.meet)} <span class="mt">meet at the beach</span></div><div class="tk">Load ${it.n} · Takeoff ${fmt(it.time)}</div></div>
+      <div class="r"><div><div class="lno">Load ${it.n}</div><div class="meet">${fmt(it.meet)} <span class="mt">meet at the beach</span></div><div class="tk">Takeoff ${fmt(it.time)}${it.note?` · ${esc(it.note)}`:''}</div></div>
       <span class="p ${cls}">${esc(it.label)}</span></div>
       <div class="av">${it.people.map(p=>`<span style="background:${col(p)}">${esc(p[0])}</span>`).join('')}<em>${it.people.map(esc).join(', ')}</em></div></div>`;
   }
